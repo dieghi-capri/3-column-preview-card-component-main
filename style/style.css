@@ -34,6 +34,10 @@ h1{
     
 }
 
+a{
+    text-decoration: none;
+}
+
 .flex-container{
     width: min(950px, 100%);
     display: flex;
@@ -81,8 +85,12 @@ img{
 
 .item .learnmore{
     font-family: "Lexend Deca", serif;
+    font-size: 14px;
     width: 128px;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 100px;
     margin-top: auto;
